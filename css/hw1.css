@@ -1,0 +1,35 @@
+body {
+	margin: 1%;
+}
+
+img {
+	display: none;
+}
+
+header {
+	background: url(../images/flywheel.jpg);
+	background-size: 100%;
+	height: 200px;
+	padding: 15px;
+	text-align: center;
+}
+
+nav a {
+	display: inline-block;
+	background: rgba(255, 255, 255, 0.3);
+	margin: 0 3px;
+	padding: 20px;
+	width: 17%;
+	border-radius: 10px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav a:hover {
+	background: #FFFFFF;
+}
+
+.active {
+		background: #FFFFFF;
+}
